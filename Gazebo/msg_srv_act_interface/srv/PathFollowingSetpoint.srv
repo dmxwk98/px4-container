@@ -1,0 +1,19 @@
+uint64 request_init_timestamp   # time since system start (microseconds)
+uint64 request_timestamp	# time since system start (microseconds)
+bool request_pathfollowing
+float64[] waypoint_x
+float64[] waypoint_y
+float64[] waypoint_z
+uint32 waypoint_index
+float64 lad
+float64 spd_cmd
+float64[] z_ndo_past
+---
+uint64 response_timestamp	# time since system start (microseconds)
+bool response_pathfollowing
+float64 targetthrust
+float64[] targetattitude
+float64[] targetposition
+float64 targetyaw
+float64[] out_ndo
+float64[] z_ndo

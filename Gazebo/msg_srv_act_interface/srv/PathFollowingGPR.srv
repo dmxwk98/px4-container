@@ -1,0 +1,9 @@
+uint64 request_init_timestamp
+uint64 request_timestamp	# time since system start (microseconds)
+bool request_gpr
+float64[] out_ndo
+---
+uint64 response_timestamp	# time since system start (microseconds)
+bool response_gpr
+float64[] gpr_output_data
+uint32 gpr_output_index

@@ -1,0 +1,10 @@
+uint64 request_timestamp	# time since system start (microseconds)
+bool request_pathplanning
+float64[] start_point
+float64[] goal_point
+---
+uint64 response_timestamp	# time since system start (microseconds)
+bool response_pathplanning
+float64[] waypoint_x
+float64[] waypoint_y
+float64[] waypoint_z

@@ -1,0 +1,6 @@
+float32[] plannd_x
+float32[] plannd_y
+float32[] plannd_z
+bool path_planning_flag
+---
+bool response

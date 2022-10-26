@@ -1,0 +1,9 @@
+uint64 request_timestamp	# time since system start (microseconds)
+bool request_collisionavoidance
+---
+uint64 response_timestamp	# time since system start (microseconds)
+bool response_collisionavoidance
+float32 vel_cmd_x
+float32 vel_cmd_y
+float32 vel_cmd_z
+float32 vel_cmd_yaw
